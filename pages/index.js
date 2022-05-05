@@ -18,8 +18,9 @@ export default function Home() {
           <GitHubButton href="https://github.com/fanhuirong/InternetBigNews" data-size="large" data-show-count="true" aria-label="Star fanhuirong/InternetBigNews on GitHub">Star</GitHubButton>
         </div>
         <h3 className={styles.title}>
-          国内互联网大事记录 From 2020.10
+          国内互联网大事记
         </h3>
+        <h4>记录From 2020.10</h4>
 
         <CustomizedTimeline/>
       </main>

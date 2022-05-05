@@ -15,14 +15,14 @@ import Typography from '@mui/material/Typography';
 const CustomizedTimeline =() =>{
   return (
     <Timeline position="alternate">
-      <TimelineItem>
+       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           align="right"
           variant="body2"
           color="text.secondary"
         >
-          9:30 am
+          2020 - 10 - 24
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -33,18 +33,18 @@ const CustomizedTimeline =() =>{
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Eat
+            蚂蚁上市风波
           </Typography>
-          <Typography>Because you need strength</Typography>
+          <Typography>马云在外滩金融峰会上表示...</Typography>
         </TimelineContent>
-      </TimelineItem>
+      </TimelineItem> 
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
           color="text.secondary"
         >
-          10:00 am
+          2020 - 11
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
@@ -55,13 +55,22 @@ const CustomizedTimeline =() =>{
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Code
+            蛋壳公寓暴雷
           </Typography>
-          <Typography>Because it&apos;s awesome!</Typography>
+          {/* <Typography>Because it&apos;s awesome!</Typography> */}
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+        <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          align="right"
+          variant="body2"
+          color="text.secondary"
+          >
+          2020 - 12 - 29
+        </TimelineOppositeContent>
         <TimelineSeparator>
+
           <TimelineConnector />
           <TimelineDot color="primary" variant="outlined">
             <HotelIcon />
@@ -70,12 +79,19 @@ const CustomizedTimeline =() =>{
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Sleep
+            拼多多员工猝死
           </Typography>
-          <Typography>Because you need rest</Typography>
+          {/* <Typography>Because you need rest</Typography> */}
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
+                <TimelineOppositeContent
+          sx={{ m: 'auto 0' }}
+          variant="body2"
+          color="text.secondary"
+        >
+          2021 - 01 - 07
+        </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
           <TimelineDot color="secondary">
@@ -85,9 +101,9 @@ const CustomizedTimeline =() =>{
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
-            Repeat
+            腾讯字节之争
           </Typography>
-          <Typography>Because this is the life you love!</Typography>
+          <Typography>字节跳动副总裁谢欣在微头条发文称...</Typography>
         </TimelineContent>
       </TimelineItem>
     </Timeline>
